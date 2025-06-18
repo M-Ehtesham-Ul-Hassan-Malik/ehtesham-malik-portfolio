@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import dataDoctor from '../assets/images/dataDoctor.png';
 import mymovieverse from '../assets/images/mymovieverse.jpg';
 import spamguardpro from '../assets/images/spamguardpro.png';
-
+import myBookBuddy from '../assets/images/myBookBuddy.png';
 const projects = [
   {
     id: 1,
@@ -31,6 +31,16 @@ const projects = [
     github: 'https://github.com/M-Ehtesham-Ul-Hassan-Malik/Data-Doctor/',
     live: 'https://mydatadoctor.streamlit.app/',
   },
+  {
+  id: 4,
+  title: 'My Book Buddy – AI Powered Book Recommendation System',
+  description: 'An AI-powered Streamlit app using collaborative filtering to recommend books tailored to user preferences. Effortlessly discover your next read based on similar users’ interests.',
+  tags: ['Python', 'Streamlit', 'Machine Learning', 'Recommendation System', 'Unsupervised Machine Learning'],
+  img: myBookBuddy,
+  github: 'https://github.com/M-Ehtesham-Ul-Hassan-Malik/My-Book-Buddy',
+  live: 'https://mybookbuddy.streamlit.app/',
+},
+
 ];
 
 
