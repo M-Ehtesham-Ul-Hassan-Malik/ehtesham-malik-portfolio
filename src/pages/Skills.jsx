@@ -10,17 +10,27 @@ const skills = [
    {
     title: 'Frameworks',
     icon: <FaCode className="text-4xl text-cyan-500 mb-4" />,
-    items: ['React'],
+    items: ['React', 'FastAPI','LangChain', 'Streamlit'],
   },
   {
     title: 'Developer Tools',
     icon: <FaTools className="text-4xl text-green-500 mb-4" />,
-    items: ['Git/GitHub', 'VS Code', 'PyCharm', 'IntelliJ'],
+    items: ['Git/GitHub','Docker', 'VS Code', 'PyCharm', 'IntelliJ'],
   },
   {
     title: 'Machine Learning',
     icon: <FaRobot className="text-4xl text-purple-500 mb-4" />,
     items: ['TensorFlow', 'Scikit-learn', 'Data Preprocessing', 'Model Optimization'],
+  },
+  {
+    title: 'Deep Learning',
+    icon: <FaRobot className="text-4xl text-purple-500 mb-4" />,
+    items: ['PyTorch', 'TensorFlow', 'Keras', 'CNNs', 'RNNs', 'LSTMs', 'Transformers'],
+  },
+  {
+    title: 'LLM & RAG Systems',
+    icon: <FaRobot className="text-4xl text-purple-500 mb-4" />,
+    items: ['LangChain', 'RAG', 'Pinecone', 'Qdrant','FAISS', 'ChromaDB', 'Prompt Engineering'],
   },
   {
     title: 'Data Analysis',
