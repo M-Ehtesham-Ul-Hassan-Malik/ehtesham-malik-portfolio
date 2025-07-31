@@ -55,6 +55,7 @@ const Navbar = () => {
           <a onClick={closeMenu} href="/" className="block font-medium hover:text-blue-600 dark:hover:text-blue-400">Home</a>
           <a onClick={closeMenu} href="/about" className="block font-medium hover:text-blue-600 dark:hover:text-blue-400">About</a>
           <a onClick={closeMenu} href="/education" className="block font-medium hover:text-blue-600 dark:hover:text-blue-400">Education</a>
+          <a onClick={closeMenu} href="/skills" className="block font-medium hover:text-blue-600 dark:hover:text-blue-400">Skills</a>
           <a onClick={closeMenu} href="/projects" className="block font-medium hover:text-blue-600 dark:hover:text-blue-400">Projects</a>
           <a onClick={closeMenu} href="/contact" className="block font-medium hover:text-blue-600 dark:hover:text-blue-400">Contact</a>
         </div>
