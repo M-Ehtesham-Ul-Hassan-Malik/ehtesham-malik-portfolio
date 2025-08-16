@@ -3,6 +3,8 @@ import dataDoctor from '../assets/images/dataDoctor.png';
 import mymovieverse from '../assets/images/mymovieverse.jpg';
 import spamguardpro from '../assets/images/spamguardpro.png';
 import myBookBuddy from '../assets/images/myBookBuddy.png';
+import ytchatbot from '../assets/images/ytchatbot.JPG'
+
 const projects = [
   {
     id: 1,
@@ -39,6 +41,15 @@ const projects = [
   img: myBookBuddy,
   github: 'https://github.com/M-Ehtesham-Ul-Hassan-Malik/My-Book-Buddy',
   live: 'https://mybookbuddy.streamlit.app/',
+},
+{
+  id: 5,
+  title: 'YouTube Rag Chatbot – AI Powered Q & A from videos',
+  description: 'An AI-powered rag based YouTube Chatbot.',
+  tags: ['Python', 'React', 'FastAPI', 'LangChain', 'RAG'],
+  img: ytchatbot,
+  github: 'https://github.com/M-Ehtesham-Ul-Hassan-Malik/yt-rag-chatbot-backend',
+  live: 'https://ytchatbot.vercel.app/',
 },
 
 ];
